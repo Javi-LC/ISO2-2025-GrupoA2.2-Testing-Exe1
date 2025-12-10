@@ -8,6 +8,10 @@ import exception.InputException;
 public class App {
     public static void main(String[] args) {
         InputService input = new InputService();
+        new App().run(input);
+    }
+
+    public void run(InputService input) {
         System.out.println("Welcome to Leap Year Checker");
 
         boolean running = true;
@@ -39,7 +43,7 @@ public class App {
         input.close();
     }
 
-    private static void checkDate(InputService input) throws InputException {
+    private void checkDate(InputService input) throws InputException {
         System.out.println("Reading Date...");
         int day = input.readWithParser("Enter day: ", new IntegerParser(), 3);
         int month = input.readWithParser("Enter month: ", new IntegerParser(), 3);

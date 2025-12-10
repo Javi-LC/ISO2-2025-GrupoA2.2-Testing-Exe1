@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ISO2.Exe1.AppTest" time="0.045" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ISO2.Exe1.AppTest" time="0.058" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\javiy\Documents\[3] CURSO\PRIMER CUATRI\ISO II\REPOS\ISO2-2025-GrupoA2.2-Testing\target\test-classes;C:\Users\javiy\Documents\[3] CURSO\PRIMER CUATRI\ISO II\REPOS\ISO2-2025-GrupoA2.2-Testing\target\classes;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\javiy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\javiy\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\javiy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\javiy\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\javiy\.m2\repository\ISO2\CommandLine\0.0.1-SNAPSHOT\CommandLine-0.0.1-SNAPSHOT.jar;"/>
+    <property name="java.class.path" value="C:\Users\javiy\Documents\[3] CURSO\VSC\ISO SAPO\ISO2-2025-GrupoA2.2-Testing-Exe1\target\test-classes;C:\Users\javiy\Documents\[3] CURSO\VSC\ISO SAPO\ISO2-2025-GrupoA2.2-Testing-Exe1\target\classes;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\javiy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\javiy\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\javiy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\javiy\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\javiy\.m2\repository\ISO2\CommandLine\0.0.1-SNAPSHOT\CommandLine-0.0.1-SNAPSHOT.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\javiy\AppData\Local\Temp\surefire8609958802082932931\surefirebooter11505102598576070965.jar C:\Users\javiy\AppData\Local\Temp\surefire8609958802082932931 2025-11-26T08-33-56_043-jvmRun1 surefire6391587439821630383tmp surefire_05021641332824429185tmp"/>
+    <property name="sun.java.command" value="C:\Users\javiy\AppData\Local\Temp\surefire16567226471065902941\surefirebooter3956744043952851779.jar C:\Users\javiy\AppData\Local\Temp\surefire16567226471065902941 2025-12-10T11-38-19_181-jvmRun1 surefire5793388991524152145tmp surefire_012801248274898597140tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\javiy\Documents\[3] CURSO\PRIMER CUATRI\ISO II\REPOS\ISO2-2025-GrupoA2.2-Testing\target\test-classes;C:\Users\javiy\Documents\[3] CURSO\PRIMER CUATRI\ISO II\REPOS\ISO2-2025-GrupoA2.2-Testing\target\classes;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\javiy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\javiy\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\javiy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\javiy\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\javiy\.m2\repository\ISO2\CommandLine\0.0.1-SNAPSHOT\CommandLine-0.0.1-SNAPSHOT.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\javiy\Documents\[3] CURSO\VSC\ISO SAPO\ISO2-2025-GrupoA2.2-Testing-Exe1\target\test-classes;C:\Users\javiy\Documents\[3] CURSO\VSC\ISO SAPO\ISO2-2025-GrupoA2.2-Testing-Exe1\target\classes;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\javiy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\javiy\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\javiy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\javiy\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\javiy\.m2\repository\ISO2\CommandLine\0.0.1-SNAPSHOT\CommandLine-0.0.1-SNAPSHOT.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\javiy"/>
     <property name="user.language" value="es"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2025-10-21"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\javiy\Documents\[3] CURSO\PRIMER CUATRI\ISO II\REPOS\ISO2-2025-GrupoA2.2-Testing"/>
+    <property name="basedir" value="C:\Users\javiy\Documents\[3] CURSO\VSC\ISO SAPO\ISO2-2025-GrupoA2.2-Testing-Exe1"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\javiy\AppData\Local\Temp\surefire8609958802082932931\surefirebooter11505102598576070965.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\javiy\AppData\Local\Temp\surefire16567226471065902941\surefirebooter3956744043952851779.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
@@ -45,12 +45,12 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\javiy\AppData\Local\Temp\"/>
     <property name="java.version" value="25.0.1"/>
-    <property name="user.dir" value="C:\Users\javiy\Documents\[3] CURSO\PRIMER CUATRI\ISO II\REPOS\ISO2-2025-GrupoA2.2-Testing"/>
+    <property name="user.dir" value="C:\Users\javiy\Documents\[3] CURSO\VSC\ISO SAPO\ISO2-2025-GrupoA2.2-Testing-Exe1"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\javiy\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\javiy\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Eclipse Adoptium\jre-17.0.16.8-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\MiKTeX\miktex\bin\x64\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\javiy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\javiy\AppData\Local\Programs\Python\Python311\;C:\Users\javiy\AppData\Local\Microsoft\WindowsApps;C:\Users\javiy\AppData\Local\spicetify;C:\Users\javiy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\javiy\AppData\Local\GitHubDesktop\bin;C:\Users\javiy\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\javiy\.dotnet\tools;C:\Users\javiy\Documents\Flutter\flutter\bin;c:\Users\javiy\.vscode\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\javiy\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\javiy\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Eclipse Adoptium\jre-17.0.16.8-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\MiKTeX\miktex\bin\x64\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Users\javiy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\javiy\AppData\Local\Programs\Python\Python311\;C:\Users\javiy\AppData\Local\Microsoft\WindowsApps;C:\Users\javiy\AppData\Local\spicetify;C:\Users\javiy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\javiy\AppData\Local\GitHubDesktop\bin;C:\Users\javiy\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\javiy\.dotnet\tools;C:\Users\javiy\Documents\Flutter\flutter\bin;c:\Users\javiy\.vscode\extensions\vscjava.vscode-java-debug-0.58.4\bundled\scripts\noConfigScripts;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -59,5 +59,81 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="ISO2.Exe1.AppTest" time="0.026"/>
+  <testcase name="testMain" classname="ISO2.Exe1.AppTest" time="0.034">
+    <system-out><![CDATA[Welcome to Leap Year Checker
+
+--- Menu ---
+1. Check a Date
+2. Exit
+Select an option: Goodbye!
+]]></system-out>
+  </testcase>
+  <testcase name="testRunInvalidDate" classname="ISO2.Exe1.AppTest" time="0.001">
+    <system-out><![CDATA[Welcome to Leap Year Checker
+
+--- Menu ---
+1. Check a Date
+2. Exit
+Select an option: Reading Date...
+Enter day: Enter month: Enter year: Date Error: Day must be between 1 and 31
+
+--- Menu ---
+1. Check a Date
+2. Exit
+Select an option: Goodbye!
+]]></system-out>
+  </testcase>
+  <testcase name="testRunInputException" classname="ISO2.Exe1.AppTest" time="0.001">
+    <system-out><![CDATA[Welcome to Leap Year Checker
+
+--- Menu ---
+1. Check a Date
+2. Exit
+Select an option: Reading Date...
+Enter day: Enter day: Enter day: Error: Maximum attempts reached for: Enter day: 
+
+--- Menu ---
+1. Check a Date
+2. Exit
+Select an option: Select an option: Goodbye!
+]]></system-out>
+  </testcase>
+  <testcase name="testRunInvalidOption" classname="ISO2.Exe1.AppTest" time="0.002">
+    <system-out><![CDATA[Welcome to Leap Year Checker
+
+--- Menu ---
+1. Check a Date
+2. Exit
+Select an option: Invalid option. Please try again.
+
+--- Menu ---
+1. Check a Date
+2. Exit
+Select an option: Goodbye!
+]]></system-out>
+  </testcase>
+  <testcase name="testRunCheckDate" classname="ISO2.Exe1.AppTest" time="0.002">
+    <system-out><![CDATA[Welcome to Leap Year Checker
+
+--- Menu ---
+1. Check a Date
+2. Exit
+Select an option: Reading Date...
+Enter day: Enter month: Enter year: The date 29/02/2020 is in a LEAP year.
+
+--- Menu ---
+1. Check a Date
+2. Exit
+Select an option: Goodbye!
+]]></system-out>
+  </testcase>
+  <testcase name="testRunExit" classname="ISO2.Exe1.AppTest" time="0.002">
+    <system-out><![CDATA[Welcome to Leap Year Checker
+
+--- Menu ---
+1. Check a Date
+2. Exit
+Select an option: Goodbye!
+]]></system-out>
+  </testcase>
 </testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd xmlns="https://pmd-code.org/schema/cpd-report"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         pmdVersion="7.17.0"
+         timestamp="2025-12-10T11:38:22.2385751+01:00"
+         version="1.0.0"
+         xsi:schemaLocation="https://pmd-code.org/schema/cpd-report https://pmd.github.io/schema/cpd-report_1_0_0.xsd">
+   <file path="C:\Users\javiy\Documents\[3] CURSO\VSC\ISO SAPO\ISO2-2025-GrupoA2.2-Testing-Exe1\src\main\java\ISO2\Exe1\App.java"
+         totalNumberOfTokens="333"/>
+   <file path="C:\Users\javiy\Documents\[3] CURSO\VSC\ISO SAPO\ISO2-2025-GrupoA2.2-Testing-Exe1\src\main\java\ISO2\Exe1\Domain\CustomDate.java"
+         totalNumberOfTokens="210"/>
+</pmd-cpd>
