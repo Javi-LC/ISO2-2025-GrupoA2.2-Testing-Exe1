@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ISO2.Exe1.AppTest" time="0.042" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ISO2.Exe1.AppTest" time="0.028" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\javiy\AppData\Local\Temp\surefire7451580064995643927\surefirebooter11938140942638152096.jar C:\Users\javiy\AppData\Local\Temp\surefire7451580064995643927 2025-12-17T12-13-40_966-jvmRun1 surefire5201031243357290005tmp surefire_04406851863503727201tmp"/>
+    <property name="sun.java.command" value="C:\Users\javiy\AppData\Local\Temp\surefire11316755082921130982\surefirebooter14982324330671892601.jar C:\Users\javiy\AppData\Local\Temp\surefire11316755082921130982 2025-12-17T12-15-49_751-jvmRun1 surefire10634145675419137502tmp surefire_08682941583569637026tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="c:\Users\javiy\Documents\[3] CURSO\PRIMER CUATRI\ISO II\REPOS\ISO2-2025-GrupoA2.2-Testing-Exe1\target\test-classes;c:\Users\javiy\Documents\[3] CURSO\PRIMER CUATRI\ISO II\REPOS\ISO2-2025-GrupoA2.2-Testing-Exe1\target\classes;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\javiy\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\javiy\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\javiy\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\javiy\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\javiy\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;C:\Users\javiy\.m2\repository\ISO2\CommandLine\0.0.1-SNAPSHOT\CommandLine-0.0.1-SNAPSHOT.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\javiy\AppData\Local\Temp\surefire7451580064995643927\surefirebooter11938140942638152096.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\javiy\AppData\Local\Temp\surefire11316755082921130982\surefirebooter14982324330671892601.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
@@ -59,5 +59,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="ISO2.Exe1.AppTest" time="0.028"/>
+  <testcase name="shouldAnswerWithTrue" classname="ISO2.Exe1.AppTest" time="0.011">
+    <error type="java.lang.Error"><![CDATA[java.lang.Error: 
+Unresolved compilation problems: 
+	Syntax error on token(s), misplaced construct(s)
+	The type AppTest is already defined
+
+	at ISO2.Exe1.AppTest.<init>(AppTest.java:1)
+]]></error>
+  </testcase>
 </testsuite>
