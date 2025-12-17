@@ -1,86 +1,110 @@
+
 # MAINTENANCE — Release v0.0.1
 
 **Status**
-- Release: v0.0.1 (tag pushed and release published) — (adjust if you publish later)
-- Maintenance branch: merged into main (merge commit: _insert-hash-if-applicable_)
+- Tag `v0.0.1` pushed to remote (`origin`). A GitHub release has not been created from this environment; run the `gh` command below to publish the release page.
+- Maintenance changes have been applied locally and committed to `main`.
 
-## Short Summary
-This maintenance work normalizes package names and test locations, fixes compilation and test issues caused by duplicated or mis-cased files, adds small documentation and helper scripts, and generates quality reports (`mvn site`). Some remaining style and tooling items are listed below.
+## Resumen ejecutivo
+Se ha realizado mantenimiento funcional y de calidad en el repositorio Exe1. Objetivos cumplidos localmente:
 
-## Changes (high level)
-- Normalized package names and moved tests/sources to lowercase packages (`iso2.exe1`).
-- Added or fixed package declarations in Java source files.
-- Removed duplicate legacy files that caused compilation/package mismatches.
-- Added reporting artifacts and (optional) comparison archives under `site-comparison/`.
-- Added `scripts/gh-issues-exe1.ps1` to create/close maintenance issues.
+- Normalizar nombres de paquete y rutas de tests a `iso2.exe1`.
+- Corregir declaraciones `package` en los ficheros afectados.
+- Generar informes de calidad con `mvn clean site` y empaquetar el sitio final en `site-comparison/after.zip`.
+- Añadir documentación de mantenimiento y script para gestionar issues.
 
-## Commits of interest
-- Maintenance commit: _insert-commit-hash_
-- Merge to main: _insert-merge-hash_
-- Version bump: _insert-version-bump-hash_
+## Cambios principales
 
-## Diagnostics (current)
-- Checkstyle: (run `mvn clean site` to get current numbers) — check `target/site/checkstyle.html`.
-- PMD: review `target/site/pmd.html`.
-- JaCoCo: coverage reports may be unreliable under JDK 25 (instrumentation failures observed). Recommendation: run CI under JDK 17 or update JaCoCo plugin to a version compatible with your JDK.
+- Paquetes normalizados y ficheros movidos/renombrados bajo:
+	- `src/main/java/iso2/exe1/...`
+	- `src/test/java/iso2/exe1/...`
+- Añadidos `package-info.java` para `iso2.exe1` y `iso2.exe1.domain`.
+- Añadido script: `scripts/gh-issues-exe1.ps1`.
+- Añadido informe: `docs/Maintenance-Exe1.md` (este fichero).
+- Creado snapshot del sitio final: `site-comparison/after.zip`.
 
-## Comparison summary
-Key metrics (fill after generating both before/after snapshots):
+## Commits relevantes
 
-- Checkstyle errors: (before → after)
-- PMD warnings: (before → after)
-- JaCoCo: note about JDK compatibility
+- `af4b8ef` Normalize packages to lowercase; add package-info-ready structure
+- `daee24f` Remove legacy uppercase files and normalize packages
+- `32cac32` Fix merged-case files: keep lowercase package versions
+- `bcef1df` chore(maintenance): add Maintenance-Exe1 docs, scripts and site comparison
+- `05fa2bb` chore(maintenance): add package-info for iso2.exe1 packages to satisfy Checkstyle
 
-Artifacts (repository):
+## Estado actual de diagnóstico (local)
 
-- `site-comparison/before.zip` — baseline site snapshot (if available)
-- `site-comparison/after.zip` — final site snapshot
+- Tests (Surefire): 1 test ejecutado — `Tests run: 1, Failures: 0, Errors: 0` (ver `target/surefire-reports/TEST-iso2.exe1.AppTest.xml`).
+- Checkstyle: 47 errores detectados en 2 ficheros. Informe completo en `target/site/checkstyle.html`.
+	- Problemas más frecuentes: falta de Javadoc en elementos públicos, `LineLength`, `MagicNumber`, parámetros no `final`, `HiddenField`, `LeftCurly`.
+- PMD: sin problemas críticos detectados en inspección rápida; ver `target/site/pmd.html`.
+- JaCoCo: `target/jacoco.exec` generado, pero la instrumentación dio errores con JDK 25 (incompatibilidad de versión). Recomendación: ejecutar CI con JDK 17 o actualizar JaCoCo a una versión compatible con JDK 25.
 
-## Issues (summary)
-The following maintenance issues were created and can be closed once work is done (examples):
+## Resumen de métricas (local)
 
-- ISSUE-1: Fix test / package name mismatches — resolved
-- ISSUE-2: Complete remaining Checkstyle fixes — in progress
-- ISSUE-3: Re-enable SpotBugs / FindBugs analysis — logged
-- ISSUE-4: Obtain reliable coverage reports (JaCoCo/JDK) — logged
+- Checkstyle errores (after): 47
+- PMD: sin alertas críticas locales
+- JaCoCo: cobertura presente pero con instrumentos poco fiables bajo JDK 25
 
-See `issues/` or the repository issue tracker for original markdowns and discussion.
+## Artefactos producidos
 
-## How to reproduce the analysis locally
-From repository root:
+- `target/site/` — informes locales (abre `target/site/index.html`).
+- `site-comparison/after.zip` — snapshot del sitio final generado.
+
+## Issues relacionadas (resumen)
+
+- ISSUE-1: Fix test / package name mismatches — (resuelto localmente)
+- ISSUE-2: Complete remaining Checkstyle fixes — (pendiente)
+- ISSUE-3: Re-enable SpotBugs / FindBugs analysis — (registrado)
+- ISSUE-4: Obtain reliable coverage reports (JaCoCo/JDK) — (registrado)
+
+## Cómo reproducir localmente
+Desde la raíz del repositorio:
 
 ```powershell
-mvn clean site
-# then open target/site/index.html in your browser
-mvn test
+Set-Location -LiteralPath 'C:\Users\javiy\Documents\[3] CURSO\PRIMER CUATRI\ISO II\REPOS\ISO2-2025-GrupoA2.2-Testing-Exe1'
+mvn -B -DskipTests=false clean test
+mvn -B clean site
+# luego abrir target/site/index.html en el navegador
 ```
 
-## Report locations (local `target/site`)
+## Ubicación de informes
 
 - Checkstyle: `target/site/checkstyle.html`
 - PMD: `target/site/pmd.html`
-- JaCoCo aggregate: `target/site/jacoco/index.html` (may be incomplete under JDK 25)
+- JaCoCo aggregate: `target/site/jacoco/index.html` (puede estar incompleto bajo JDK 25)
 - Surefire report: `target/site/surefire-report.html`
+- Raw surefire xml: `target/surefire-reports/TEST-iso2.exe1.AppTest.xml`
 
-## Files changed in this maintenance
-- Several `*.java` files under `src/main/java/iso2/exe1/` — package declarations and renames
-- Several `*.java` files under `src/test/java/iso2/exe1/` — test package fixes
-- `scripts/gh-issues-exe1.ps1` — added helper to create/close issues
+## Ficheros modificados en este mantenimiento
 
-## Remaining tasks / recommended next steps
+- `src/main/java/ISO2/Exe1/App.java` — ajustes de paquete/estilo
+- `src/main/java/ISO2/Exe1/Domain/CustomDate.java` — ajustes de paquete/estilo
+- `src/test/java/iso2/exe1/AppTest.java` — normalización del paquete de test
+- `src/main/java/iso2/exe1/package-info.java` — añadido
+- `src/main/java/iso2/exe1/domain/package-info.java` — añadido
+- `scripts/gh-issues-exe1.ps1` — añadido
+- `docs/Maintenance-Exe1.md` — este informe
+- `site-comparison/after.zip` — snapshot del sitio final
 
-1. Fix remaining Checkstyle errors (add missing `@param/@return`, wrap long lines). Priority: Medium. Estimated effort: small. Owner: @student.
-2. Resolve Surefire test-class/package mismatches if any remain (ensure source file paths and package declarations match). Priority: High. Owner: @student.
-3. Decide JaCoCo path: update to a version supporting your JDK or run CI under JDK 17. Priority: Medium. Owner: maintainer/CI owner.
-4. Re-enable SpotBugs and analyze results after the tool/JDK decision. Priority: Low→Medium.
-5. Finalize release: if the team accepts v0.0.1 RC, update `pom.xml` to the release version, tag and create release notes, and close the maintenance loop.
+## Próximos pasos recomendados
 
-## Release artifacts and links
+1. Corregir los 47 errores de Checkstyle (priorizar Javadoc, `LineLength`, eliminar trailing spaces y resolver parámetros ocultos). Tiempo estimado: pequeño.
+2. Decidir la estrategia de JaCoCo/JDK: ejecutar CI con JDK 17 (recomendado) o actualizar JaCoCo.
+3. Rehabilitar SpotBugs tras actualización de toolchain.
+4. Finalizar release: pushear commits (si no están), empujar tag y crear la release en GitHub.
 
-- Repo: https://github.com/<owner>/ISO2-2025-GrupoA2.2-Testing-Exe1
-- (When available) Release page: https://github.com/<owner>/ISO2-2025-GrupoA2.2-Testing-Exe1/releases/tag/v0.0.1
-- Site comparison archives: `site-comparison/before.zip`, `site-comparison/after.zip`
+## Publicar release (comandos)
+Ejecuta desde la raíz del repo cuando quieras publicar la release (requiere `gh` autenticado):
+
+```powershell
+git add docs scripts site-comparison
+git commit -m "chore(maintenance): add Maintenance-Exe1 docs, scripts and site comparison" || Write-Host "No hay cambios para commitear"
+git push origin HEAD
+git tag -a v0.0.1 -m "Release v0.0.1"
+git push origin v0.0.1
+gh release create v0.0.1 --title "v0.0.1" --notes-file docs/Maintenance-Exe1.md --target main
+```
 
 ---
 
-*Generated: 2025-12-17*
+*Generado: 2025-12-17*
