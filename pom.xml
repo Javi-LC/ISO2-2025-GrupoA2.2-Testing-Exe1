@@ -30,11 +30,7 @@
       <version>5.7.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>ISO2</groupId>
-      <artifactId>CommandLine</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-    </dependency>
+    <!-- CommandLine code is now included in src/main/java (exception/, io/, parser/, service/) -->
   </dependencies>
 
   <build>
@@ -48,6 +44,15 @@
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
         <version>0.8.11</version>
+        <configuration>
+          <!-- Exclude CommandLine library packages from coverage -->
+          <excludes>
+            <exclude>exception/**</exclude>
+            <exclude>io/**</exclude>
+            <exclude>parser/**</exclude>
+            <exclude>service/**</exclude>
+          </excludes>
+        </configuration>
         <executions>
           <execution>
             <id>default-prepare-agent</id>
