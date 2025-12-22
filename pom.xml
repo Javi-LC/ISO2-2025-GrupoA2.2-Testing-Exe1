@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ISO2</groupId>
@@ -9,44 +8,25 @@
   <packaging>jar</packaging>
 
   <name>Exe1</name>
-  <url>http://www.example.com</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
-
+  <url>http://maven.apache.org</url>
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
     <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.7.1</version>
-      <scope>test</scope>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13</version>
     </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-params</artifactId>
-      <version>5.7.1</version>
-      <scope>test</scope>
-    </dependency>
-    <!-- CommandLine JAR included locally in lib/ folder -->
     <dependency>
       <groupId>ISO2</groupId>
       <artifactId>CommandLine</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.3</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/lib/CommandLine-0.0.1-SNAPSHOT.jar</systemPath>
+      <systemPath>${project.basedir}/lib/CommandLine-0.0.3.jar</systemPath>
     </dependency>
   </dependencies>
-
   <build>
+    <finalName>JunitExample</finalName>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.0.0-M5</version>
-      </plugin>
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
@@ -83,9 +63,11 @@
             </goals>
             <configuration>
               <rules>
+                <!-- implementation is needed only for Maven 2 -->
                 <rule implementation="org.jacoco.maven.RuleConfiguration">
                   <element>BUNDLE</element>
                   <limits>
+                    <!-- implementation is needed only for Maven 2 -->
                     <limit implementation="org.jacoco.report.check.Limit">
                       <counter>COMPLEXITY</counter>
                       <value>COVEREDRATIO</value>
@@ -100,7 +82,6 @@
       </plugin>
     </plugins>
   </build>
-
   <reporting>
     <plugins>
       <plugin>
@@ -126,37 +107,38 @@
           </reportSet>
         </reportSets>
       </plugin>
-      
-      <!-- commented for lab session concerning maintenance --> 
-      <plugin> 
-        <groupId>org.apache.maven.plugins</groupId> 
-        <artifactId>maven-pmd-plugin</artifactId> 
-        <configuration> 
-          <skipEmptyReport>false</skipEmptyReport> 
-        </configuration> 
-      </plugin> 
-      <plugin> 
-        <groupId>org.codehaus.mojo</groupId> 
-        <artifactId>findbugs-maven-plugin</artifactId> 
-        <configuration> 
-          <skipEmptyReport>false</skipEmptyReport> 
-        </configuration> 
-      </plugin> 
-      <plugin> 
-        <groupId>org.apache.maven.plugins</groupId> 
-        <artifactId>maven-checkstyle-plugin</artifactId> 
-        <configuration> 
-          <skipEmptyReport>false</skipEmptyReport> 
-        </configuration> 
-      </plugin> 
-      <plugin> 
-        <groupId>org.apache.maven.plugins</groupId> 
-        <artifactId>maven-jxr-plugin</artifactId> 
-      </plugin> 
-      <plugin> 
-        <groupId>org.apache.maven.plugins</groupId> 
-        <artifactId>maven-javadoc-plugin</artifactId> 
-      </plugin> 
+      <!-- commented for lab session concerning maintenance -->
+      <!--
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <configuration>
+          <skipEmptyReport>false</skipEmptyReport>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>findbugs-maven-plugin</artifactId>
+        <configuration>
+          <skipEmptyReport>false</skipEmptyReport>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <configuration>
+          <skipEmptyReport>false</skipEmptyReport>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jxr-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+      </plugin>
+      -->
     </plugins>
   </reporting>
 </project>
