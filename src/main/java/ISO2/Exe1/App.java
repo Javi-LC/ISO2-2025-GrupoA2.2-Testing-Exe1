@@ -5,56 +5,101 @@ import service.InputService;
 import parser.IntegerParser;
 import exception.InputException;
 
-public class App {
-    public static void main(String[] args) {
-        InputService input = new InputService();
-        System.out.println("Welcome to Leap Year Checker");
+import java.io.PrintStream;
 
-        boolean running = true;
+public class App {
+    
+    private final InputService input;
+    private final PrintStream output;
+    private boolean running;
+
+    // Constructor para producción
+    public App() {
+        this(new InputService(), System.out);
+    }
+
+    // Constructor para testing con inyección de dependencias
+    public App(InputService input, PrintStream output) {
+        this.input = input;
+        this.output = output;
+        this.running = true;
+    }
+
+    public static void main(String[] args) {
+        App app = new App();
+        app.run();
+    }
+
+    public void run() {
+        output.println("Welcome to Leap Year Checker");
+
         while (running) {
             try {
-                System.out.println("\n--- Menu ---");
-                System.out.println("1. Check a Date");
-                System.out.println("2. Exit");
+                output.println("\n--- Menu ---");
+                output.println("1. Check a Date");
+                output.println("2. Exit");
                 
-                int choice = input.readWithParser("Select an option: ", new IntegerParser(), 3);
+                int choice = input.readWithParser("Select an option: ", new IntegerParser());
 
-                switch (choice) {
-                    case 1:
-                        checkDate(input);
-                        break;
-                    case 2:
-                        running = false;
-                        System.out.println("Goodbye!");
-                        break;
-                    default:
-                        System.out.println("Invalid option. Please try again.");
-                }
+                processChoice(choice);
             } catch (InputException e) {
-                System.out.println("Error: " + e.getMessage());
+                output.println("Error: " + e.getMessage());
             } catch (Exception e) {
-                System.out.println("Unexpected Error: " + e.getMessage());
+                output.println("Unexpected Error: " + e.getMessage());
             }
         }
         input.close();
     }
 
-    private static void checkDate(InputService input) throws InputException {
-        System.out.println("Reading Date...");
-        int day = input.readWithParser("Enter day: ", new IntegerParser(), 3);
-        int month = input.readWithParser("Enter month: ", new IntegerParser(), 3);
-        int year = input.readWithParser("Enter year: ", new IntegerParser(), 3);
+    // Método expuesto para testing
+    public void processChoice(int choice) throws InputException {
+        switch (choice) {
+            case 1:
+                checkDate();
+                break;
+            case 2:
+                running = false;
+                output.println("Goodbye!");
+                break;
+            default:
+                output.println("Invalid option. Please try again.");
+        }
+    }
 
+    public void checkDate() throws InputException {
+        output.println("Reading Date...");
+        int day = input.readWithParser("Enter day: ", new IntegerParser());
+        int month = input.readWithParser("Enter month: ", new IntegerParser());
+        int year = input.readWithParser("Enter year: ", new IntegerParser());
+
+        checkDateWithValues(day, month, year);
+    }
+
+    // Método para testing directo sin I/O
+    public String checkDateWithValues(int day, int month, int year) {
         try {
             CustomDate date = new CustomDate(day, month, year);
             boolean isLeap = date.isLeapYear();
+            String result;
             if (isLeap) {
-                System.out.println("The date " + date + " is in a LEAP year.");
+                result = "The date " + date + " is in a LEAP year.";
             } else {
-                System.out.println("The date " + date + " is NOT in a leap year.");
+                result = "The date " + date + " is NOT in a leap year.";
             }
+            output.println(result);
+            return result;
         } catch (IllegalArgumentException e) {
-            System.out.println("Date Error: " + e.getMessage());
+            String error = "Date Error: " + e.getMessage();
+            output.println(error);
+            return error;
         }
+    }
+
+    public boolean isRunning() {
+        return running;
+    }
+
+    public void stop() {
+        this.running = false;
     }
 }
