@@ -1,4 +1,4 @@
-package iso2.exe1.domain;
+package ISO2.Exe1.Domain;
 
 public class CustomDate {
     private int day;

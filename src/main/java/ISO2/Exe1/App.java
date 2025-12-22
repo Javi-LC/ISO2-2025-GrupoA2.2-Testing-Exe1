@@ -1,6 +1,6 @@
-package iso2.exe1;
+package ISO2.Exe1;
 
-import iso2.exe1.domain.CustomDate;
+import ISO2.Exe1.Domain.CustomDate;
 import service.InputService;
 import parser.IntegerParser;
 import exception.InputException;

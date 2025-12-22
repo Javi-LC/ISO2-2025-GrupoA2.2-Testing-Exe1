@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: ISO2.Exe1.AppTest$EachUseCoverageTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in ISO2.Exe1.AppTest$EachUseCoverageTests
+ISO2.Exe1.AppTest$EachUseCoverageTests.testProcessChoiceOption1  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$EachUseCoverageTests.testProcessChoiceOption2  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$EachUseCoverageTests.testStop  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$EachUseCoverageTests.testProcessChoiceInvalidOption  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$EachUseCoverageTests.testAppInitialization  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$EachUseCoverageTests.testCheckDateWithValidValues  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$EachUseCoverageTests.testDefaultConstructor  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+

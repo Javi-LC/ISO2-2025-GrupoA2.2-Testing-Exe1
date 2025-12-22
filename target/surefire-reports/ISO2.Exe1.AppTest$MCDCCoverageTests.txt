@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: ISO2.Exe1.AppTest$MCDCCoverageTests
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in ISO2.Exe1.AppTest$MCDCCoverageTests
+ISO2.Exe1.AppTest$MCDCCoverageTests.testChoiceNotValid  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$MCDCCoverageTests.testDivisibleBy400  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$MCDCCoverageTests.testDivisibleBy4NotBy100  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$MCDCCoverageTests.testChoiceEquals1  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$MCDCCoverageTests.testChoiceEquals2  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$MCDCCoverageTests.testIsLeapTrue  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$MCDCCoverageTests.testNotDivisibleBy4  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$MCDCCoverageTests.testDivisibleBy100NotBy400  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$MCDCCoverageTests.testIsLeapFalse  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+

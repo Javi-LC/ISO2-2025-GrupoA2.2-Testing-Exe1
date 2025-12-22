@@ -1,0 +1,130 @@
+-------------------------------------------------------------------------------
+Test set: ISO2.Exe1.AppTest$PairwiseCoverageTests
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 0, Errors: 21, Skipped: 0, Time elapsed: 0.048 s <<< FAILURE! - in ISO2.Exe1.AppTest$PairwiseCoverageTests
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayYearCombinations(int, int, int)[1]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayYearCombinations(int, int, int)[2]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayYearCombinations(int, int, int)[3]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayYearCombinations(int, int, int)[4]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayYearCombinations(int, int, int)[5]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayYearCombinations(int, int, int)[6]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testMonthYearCombinations(int, int, int)[1]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testMonthYearCombinations(int, int, int)[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testMonthYearCombinations(int, int, int)[3]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testMonthYearCombinations(int, int, int)[4]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testMonthYearCombinations(int, int, int)[5]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testMonthYearCombinations(int, int, int)[6]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayMonthCombinations(int, int, int)[1]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayMonthCombinations(int, int, int)[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayMonthCombinations(int, int, int)[3]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayMonthCombinations(int, int, int)[4]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayMonthCombinations(int, int, int)[5]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayMonthCombinations(int, int, int)[6]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayMonthCombinations(int, int, int)[7]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayMonthCombinations(int, int, int)[8]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$PairwiseCoverageTests.testDayMonthCombinations(int, int, int)[9]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+

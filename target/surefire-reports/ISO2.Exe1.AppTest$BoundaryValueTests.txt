@@ -1,0 +1,88 @@
+-------------------------------------------------------------------------------
+Test set: ISO2.Exe1.AppTest$BoundaryValueTests
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 0.095 s <<< FAILURE! - in ISO2.Exe1.AppTest$BoundaryValueTests
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryDays(int, int, int)[1]  Time elapsed: 0.011 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryDays(int, int, int)[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryDays(int, int, int)[3]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryDays(int, int, int)[4]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryDays(int, int, int)[5]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryDays(int, int, int)[6]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryYears(int)[1]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryYears(int)[2]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryYears(int)[3]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryYears(int)[4]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryYears(int)[5]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryYears(int)[6]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryYears(int)[7]  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+
+ISO2.Exe1.AppTest$BoundaryValueTests.testBoundaryYears(int)[8]  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+
+

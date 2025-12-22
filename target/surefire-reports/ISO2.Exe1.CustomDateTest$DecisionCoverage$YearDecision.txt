@@ -1,0 +1,184 @@
+-------------------------------------------------------------------------------
+Test set: ISO2.Exe1.CustomDateTest$DecisionCoverage$YearDecision
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in ISO2.Exe1.CustomDateTest$DecisionCoverage$YearDecision
+ISO2.Exe1.CustomDateTest$DecisionCoverage$YearDecision.testYearDecisionTrue  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+	The import iso2 cannot be resolved
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+
+
+ISO2.Exe1.CustomDateTest$DecisionCoverage$YearDecision.testYearDecisionFalse  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The declared package "iso2.exe1" does not match the expected package "ISO2.Exe1"
+	The import iso2 cannot be resolved
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+	CustomDate cannot be resolved to a type
+
+

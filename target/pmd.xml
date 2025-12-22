@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.38.0" timestamp="2025-12-22T17:42:24.902">
+<file name="/home/aitor/Universidad/Tercer Curso/Primer cuatrimestre/Ingenieria de software 2/LAB/Code/ISO2-2025-GrupoA2.2-Testing-Exe1/src/main/java/ISO2/Exe1/Domain/CustomDate.java">
+<violation beginline="36" endline="36" begincolumn="17" endcolumn="48" rule="UselessParentheses" ruleset="Code Style" package="iso2.exe1.domain" class="CustomDate" method="isLeapYear" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>
