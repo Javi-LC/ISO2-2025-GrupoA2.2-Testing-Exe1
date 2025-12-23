@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>ISO2</groupId>
+  <artifactId>CommandLine</artifactId>
+  <versioning>
+    <lastUpdated>20251223134756</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.3-SNAPSHOT</value>
+        <updated>20251223134756</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.3-SNAPSHOT</value>
+        <updated>20251223134756</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.0.3-SNAPSHOT</version>
+</metadata>
